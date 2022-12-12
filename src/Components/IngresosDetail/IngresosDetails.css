@@ -1,0 +1,68 @@
+.containerPantallaIngresoIng{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.containerPantallaIngresoIng div{
+    background-color: white;
+    border: 1px solid black;
+    height: 25px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 2px;
+}
+.detailingIng{
+    width: 135px;
+    padding-left: 3px;
+    text-align: left;
+}
+.ingcajapeIng{
+    margin-left: 10px;
+    width: 136px;
+}
+.ingbacopeIng{
+    margin-left: 10px;
+    width: 136px;
+}
+.ingcheqpeIng{
+    margin-left: 10px;
+    width: 136px;
+}
+.ingcajadolIng{
+    padding-left: 5px;
+    width: 136px;
+}
+.ingbacodolIng{
+    padding-left: 0px;
+    width: 136px;
+}
+.ingcomitdolIng{
+    padding-left: 5px;
+    width: 136px;
+}
+.tcingIng{
+    width: 55px;
+}
+.ingtotaldolIng{
+    padding-left: 0px;
+    width: 130px;
+}
+.ingtotalpeIng{
+    padding-left: 0px;
+    width: 136px;
+}
+.tcingIng button{
+    border: 0px white solid;
+    font-size: 14px;
+    font-weight: bold;
+}
+.tcingIng img{
+    object-fit: cover;
+    width:40%;
+    height:40%;
+}
+

@@ -1,0 +1,52 @@
+.select1Egr, .select2Egr, .select3Egr, .select4Egr, .select5Egr, .select6Egr, .select7Egr{
+    margin-left: 515px;
+    display: flex;
+   background-color: gray;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+    width: 350px;
+    margin-top: 5px;
+    text-align: left;
+   
+}
+.select1Egr label, .select2Egr label, .select3Egr label, .select4Egr label, .select5Egr label, .select6Egr label{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+}
+.select1Egr input, .select2Egr input, .select3Egr input, .select4Egr input, .select5Egr input, .select6Egr input{
+    width: 130px;
+}
+.select7Egr label{
+    width: 100px;
+}
+.select7Egr input{
+    width: 230px;
+}
+.buttonFormEgresoInEgr, .buttonFormEgresoOutEgr {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.titleFormEgresoEgr{
+    margin-top: -20px;
+    color: white;
+}
+#buttonFormEgresoOutEgr button{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+

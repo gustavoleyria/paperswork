@@ -1,0 +1,75 @@
+.containerPantallaResumenIngreso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.containerPantallaResumenIngreso div{
+    
+    background-color: grey;
+    border: 1px solid black;
+    height: 25px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white
+}
+.detailing{
+    width: 135px;
+    text-align: left;
+    vertical-align: middle;
+}
+.ingcajape{
+    margin-left: 10px;
+    width: 136px;
+}
+.ingbacope{
+    margin-left: 10px;
+    width: 136px;
+}
+.ingcheqpe{
+    margin-left: 10px;
+    width: 136px;
+}
+.ingcajadol{
+    padding-left: 5px;
+    width: 136px;
+}
+.ingbacodol{
+    padding-left: 0px;
+    width: 136px;
+}
+.ingcomitdol{
+    padding-left: 5px;
+    width: 136px;
+}
+.tcing{
+    width: 55px;
+}
+.ingtotaldol{
+    padding-left: 0px;
+    width: 130px;
+}
+.ingtotalpe{
+    padding-left: 0px;
+    width: 136px;
+}
+
+
+#nececajape, #necebcope, #nececheqpe, #nececajadol, #necebcodol, #nececomitdol{
+    width: 129px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#nececajadol, #necebcodol, #nececomitdol{
+    width: 132px;
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}

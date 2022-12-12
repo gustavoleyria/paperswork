@@ -1,0 +1,58 @@
+.select1Ing, .select2Ing, .select3Ing, .select4Ing, .select5Ing, .select6Ing, .select7Ing{
+    margin-left: 515px;
+    display: flex;
+   background-color: gray;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+    width: 350px;
+    margin-top: 5px;
+    text-align: left;
+   
+}
+.select1Ing label, .select2Ing label, .select3Ing label, .select4Ing label, .select5Ing label, .select6Ing label{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+}
+.select1Ing input, .select2Ing input, .select3Ing input, .select4Ing input, .select5Ing input, .select6Ing input{
+    width: 130px;
+}
+.select7Ing label{
+    width: 100px;
+}
+.select7Ing input{
+    width: 230px;
+}
+.buttonFormEgresoInIng, .buttonFormEgresoOutIng {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.titleFormEgresoIng{
+    margin-top: -20px;
+    color: white;
+}
+#buttonFormIngresoOutIng button{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+#buttonFormIngresoOutIng h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+
