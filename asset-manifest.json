@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/paperswork/static/css/main.d3e80c2e.css",
+    "main.js": "/paperswork/static/js/main.e17885a7.js",
+    "static/js/787.32cb8ed9.chunk.js": "/paperswork/static/js/787.32cb8ed9.chunk.js",
+    "index.html": "/paperswork/index.html",
+    "main.d3e80c2e.css.map": "/paperswork/static/css/main.d3e80c2e.css.map",
+    "main.e17885a7.js.map": "/paperswork/static/js/main.e17885a7.js.map",
+    "787.32cb8ed9.chunk.js.map": "/paperswork/static/js/787.32cb8ed9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3e80c2e.css",
+    "static/js/main.e17885a7.js"
+  ]
+}
