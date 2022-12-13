@@ -41,6 +41,7 @@ export default function Ingresos(){
         e.preventDefault();
         let cajaPesos = document.getElementsByClassName('ingcajape')
         cajaPesos[0].innerHTML = new Intl.NumberFormat('de-DE').format(e.target.value)
+
         setData({
             ...data,
             cajaPesos: e.target.value,

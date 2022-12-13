@@ -235,56 +235,56 @@ export default function Resumen(props){
 
    function cajaPesos(e){
         e.preventDefault();
-        
+        let cajaPesos = (e.target.value || 0)
         setObtenido({
             ...obtenido,
-            cajaPesos: e.target.value
+            cajaPesos
         }) 
         console.log(obtenido)
     }
     function bancoPesos(e){
         e.preventDefault();
-        
+        let bancoPesos = (e.target.value || 0)
         setObtenido({
             ...obtenido,
-            bancoPesos: e.target.value
+            bancoPesos
                 }) 
         console.log(obtenido)
     }
     function chequePesos(e){
         e.preventDefault();
-        
+        let chequePesos = (e.target.value || 0)
         setObtenido({
             ...obtenido,
-            chequePesos: e.target.value
+            chequePesos
              }) 
         console.log(obtenido)
     }
        
     function cajaDolares(e){
         e.preventDefault();
-        
+        let cajaDolares = (e.target.value || 0)
         setObtenido({
             ...obtenido,
-            cajaDolares: e.target.value
+            cajaDolares
              }) 
         console.log(obtenido)
     }
     function bancoDolares(e){
         e.preventDefault();
-        
+        let bancoDolares = (e.target.value || 0)
         setObtenido({
             ...obtenido,
-            bancoDolares: e.target.value
+            bancoDolares
              }) 
         console.log(obtenido)
     }
     function comitenteDolares(e){
         e.preventDefault();
-        
+        let comitenteDolares = (e.target.value || 0)
         setObtenido({
             ...obtenido,
-            comitenteDolares: e.target.value
+            comitenteDolares
             }) 
         console.log(obtenido)
     }
@@ -394,7 +394,7 @@ export default function Resumen(props){
                 return total
         }
     } 
-
+    
 
     return(
         <React.Fragment>
@@ -438,12 +438,12 @@ export default function Resumen(props){
             </div>
             <div className="containerPantallaResumenIngreso"> 
                     <div className="detailing" id="detailing">Fondos Obtenidos</div>
-                    <input type="number" name="nececajape" className='nececajape' id="nececajape" onChange={cajaPesos} placeholder="Completar"/>
-                    <input type="number" name="necebcope"  className="necebcope" id="necebcope" onChange={bancoPesos} placeholder="Completar"/>
-                    <input type="number" name="nececheqpe" className="nececheqpe" id="nececheqpe" onChange={chequePesos} placeholder="Completar"/>
-                    <input type="number" name="nececajadol" className="nececajadol" id="nececajadol" onChange={cajaDolares} placeholder="Completar"/>
-                    <input type="number" name="necebcope" className="necebcodol" id="necebcodol" onChange={bancoDolares} placeholder="Completar"/>
-                    <input type="number" name="nececomitpe" className="nececomitdol" id="nececomitdol" onChange={comitenteDolares} placeholder="Completar"/>
+                    <input type="number"   step="any" name="nececajape" className='nececajape' id="nececajape" onChange={cajaPesos} placeholder="Completar"/>
+                    <input type="number"   step="any" name="necebcope"  className="necebcope" id="necebcope" onChange={bancoPesos} placeholder="Completar"/>
+                    <input type="number"   step="any" name="nececheqpe" className="nececheqpe" id="nececheqpe" onChange={chequePesos} placeholder="Completar"/>
+                    <input type="number"   step="any" name="nececajadol" className="nececajadol" id="nececajadol" onChange={cajaDolares} placeholder="Completar"/>
+                    <input type="number"   step="any" name="necebcope" className="necebcodol" id="necebcodol" onChange={bancoDolares} placeholder="Completar"/>
+                    <input type="number"   step="any"  name="nececomitpe" className="nececomitdol" id="nececomitdol" onChange={comitenteDolares} placeholder="Completar"/>
                     {/* <div className="tcing" id="tcing">{diferencia(7)}</div>
                     <div className="ingtotaldol" id="ingtotaldol">0</div>
                     <div className="ingtotalpe">0</div>               */}

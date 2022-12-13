@@ -64,7 +64,7 @@ export default function Form(props){
    
     function handleChangeCajaPesos(e){
         e.preventDefault();
-        let cajaEgrePesos = parseFloat(e.target.value)
+        let cajaEgrePesos = parseFloat(e.target.value || 0)
         setPreegre({
             ...preegre,
             cajaEgrePesos
@@ -72,7 +72,7 @@ export default function Form(props){
     }
     function handleChangeBancoPesos(e){
         e.preventDefault();
-        let bancoEgrePesos = parseFloat(e.target.value)
+        let bancoEgrePesos = parseFloat(e.target.value || 0)
         setPreegre({
             ...preegre,
             bancoEgrePesos
@@ -80,7 +80,7 @@ export default function Form(props){
     }
     function handleChangeChequePesos(e){
         e.preventDefault();
-        let chequeEgrePesos = parseFloat(e.target.value)
+        let chequeEgrePesos = parseFloat(e.target.value || 0)
         setPreegre({
             ...preegre,
             chequeEgrePesos
@@ -88,7 +88,7 @@ export default function Form(props){
     }
     function handleChangeCajaDolares(e){
         e.preventDefault();
-        let cajaEgreDolares = parseFloat(e.target.value)
+        let cajaEgreDolares = parseFloat(e.target.value || 0)
         setPreegre({
             ...preegre,
             cajaEgreDolares
@@ -96,7 +96,7 @@ export default function Form(props){
     }
     function handleChangeBancoDolares(e){
         e.preventDefault();
-        let bancoEgreDolares = parseFloat(e.target.value)
+        let bancoEgreDolares = parseFloat(e.target.value || 0)
         setPreegre({
             ...preegre,
             bancoEgreDolares
@@ -104,7 +104,7 @@ export default function Form(props){
     }
     function handleChangeComitenteDolares(e){
         e.preventDefault();
-        let comitenteEgreDolares = parseFloat(e.target.value)
+        let comitenteEgreDolares = parseFloat(e.target.value || 0)
         setPreegre({
             ...preegre,
             comitenteEgreDolares
@@ -222,36 +222,36 @@ export default function Form(props){
                     <div className='select1Egr'>
                                     
                         <label htmlFor="monto1">Importe_Caja_Pesos</label>
-                        <input type="number" name="monto1" id="monto1" defaultValue="0" onChange={handleChangeCajaPesos} />
+                        <input type="number" name="monto1"   step="any" id="monto1" defaultValue="0" onChange={handleChangeCajaPesos} />
                 
                     </div>
                     <div className='select2Egr'>
                         
                         <label htmlFor="monto2">Importe_Banco_Pesos</label>
-                        <input type="number" name="monto2" id="monto2" defaultValue="0"  onChange={handleChangeBancoPesos} />
+                        <input type="number" name="monto2"   step="any" id="monto2" defaultValue="0"  onChange={handleChangeBancoPesos} />
                     </div>
                     <div className='select3Egr'>
                         
                         <label htmlFor="monto3">Importe_Cheques_Pesos</label>
-                        <input type="number" name="monto3" id="monto3"  defaultValue="0" onChange={handleChangeChequePesos} />
+                        <input type="number" name="monto3"   step="any" id="monto3"  defaultValue="0" onChange={handleChangeChequePesos} />
                     </div>
                 
                     <div className='select4Egr'>
                         
                         <label htmlFor="monto4">Importe_Caja_Dolares</label>
-                        <input type="number" name="monto4" id="monto4" defaultValue="0"  onChange={handleChangeCajaDolares} />
+                        <input type="number" name="monto4"   step="any" id="monto4" defaultValue="0"  onChange={handleChangeCajaDolares} />
                     </div>
 
                     <div className='select5Egr'>
                         
                         <label htmlFor="monto5">Importe_Banco_Dolares</label>
-                        <input type="number" name="monto5" id="monto5" defaultValue="0"  onChange={handleChangeBancoDolares} />
+                        <input type="number" name="monto5"   step="any" id="monto5" defaultValue="0"  onChange={handleChangeBancoDolares} />
                     </div>
 
                     <div className='select6Egr'>
                         
                         <label htmlFor="monto6">Importe_Comitente_Dolares</label>
-                        <input type="number" name="monto6" id="monto6" defaultValue="0"  onChange={handleChangeComitenteDolares} />
+                        <input type="number" name="monto6"   step="any" id="monto6" defaultValue="0"  onChange={handleChangeComitenteDolares} />
                     </div>
             
                     
